@@ -108,3 +108,27 @@ main .main-input .mic-icon {
     height: 27px;
     cursor: pointer;
 }
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-buttons div {
+    display: inline-block;
+}
+main .main-buttons button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    border-radius: 5px ;
+    font-size: 14px;
+    color: #5f6368;
+    padding: 0 15px;
+    margin: 0 5px
+}
+main .main-buttons button:hover {
+    color: #000000;
+    cursor: pointer;
+    background-color: #f6f6f6 ;
+    border: 1px solid #c6c6c6;
+}
